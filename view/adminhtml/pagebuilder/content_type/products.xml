@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_PageBuilder:etc/content_type.xsd">
+    <type name="products">
+        <appearances>
+            <appearance name="carousel">
+                <elements>
+                    <element name="main">
+                        <attribute name="slides_to_show" source="data-slides-to-show"/>
+                        <attribute name="slides_to_scroll" source="data-slides-to-scroll"/>
+                    </element>
+                </elements>
+            </appearance>
+        </appearances>
+    </type>
+</config>
